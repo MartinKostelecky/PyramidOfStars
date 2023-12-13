@@ -26,7 +26,7 @@ public class Main {
                 //setting length of a new floor to 0
                 builder.setLength(0);
                 //incrementing count of stars
-                moreStars = moreStars + 2;
+                moreStars += 2;
             } else {
                 builder.append(" ".repeat(lessSpacesLeft-1));
                 builder.append("*".repeat(moreStars));
